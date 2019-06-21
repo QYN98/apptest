@@ -1,0 +1,1117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WebScript v='30205'>
+	<Variables>
+	</Variables>
+	<nextScriptId>420</nextScriptId>
+	<Object>null</Object>
+	<dataSources>
+	</dataSources>
+	<Script v='3'>
+		<ver>14</ver>
+		<id>1</id>
+		<Summary v='3'>
+			<played>7</played>
+			<succeeded>7</succeeded>
+			<maxResponseTime>2474</maxResponseTime>
+			<averageResponseTime>1085</averageResponseTime>
+		</Summary>
+		<childCount>1</childCount>
+		<ChildItems>
+			<SuiteItem v='1'>
+				<ver>14</ver>
+				<id>4</id>
+				<Summary v='3'>
+					<played>7</played>
+					<succeeded>7</succeeded>
+					<maxResponseTime>2474</maxResponseTime>
+					<averageResponseTime>1085</averageResponseTime>
+				</Summary>
+				<childCount>1</childCount>
+				<ChildItems>
+					<TestItem v='3'>
+						<ver>14</ver>
+						<id>3</id>
+						<Summary v='3'>
+							<played>7</played>
+							<succeeded>7</succeeded>
+							<maxResponseTime>2474</maxResponseTime>
+							<averageResponseTime>1085</averageResponseTime>
+						</Summary>
+						<childCount>1</childCount>
+						<ChildItems>
+							<Step v='4'>
+								<ver>14</ver>
+								<id>2</id>
+								<Summary v='3'>
+									<played>7</played>
+									<succeeded>7</succeeded>
+									<maxResponseTime>2474</maxResponseTime>
+									<averageResponseTime>1085</averageResponseTime>
+								</Summary>
+								<childCount>7</childCount>
+								<ChildItems>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>5</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>277</maxResponseTime>
+											<averageResponseTime>277</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>10.7.90.44:8032</host>
+										<path>/bugfree3.0.3/index.php/site/login</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: file:///D:/2018-2019study2/badboy/html/start.html
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>gb2312</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>26</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>1152</maxResponseTime>
+											<averageResponseTime>1152</averageResponseTime>
+										</Summary>
+										<childCount>6</childCount>
+										<ChildItems>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>27</id>
+												<name>LoginForm[username]</name>
+												<value>admin</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>28</id>
+												<name>LoginForm[password]</name>
+												<value>123456</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>29</id>
+												<name>LoginForm[language]</name>
+												<value>zh_cn</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>30</id>
+												<name>LoginForm[rememberMe]</name>
+												<value>0</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>31</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>10.7.90.44:8032</host>
+												<path>/bugfree3.0.3/index.php</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/site/login
+Content-Type: application/x-www-form-urlencoded</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+												<executionMode>2</executionMode>
+											</Request>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>32</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>10.7.90.44:8032</host>
+												<path>/bugfree3.0.3/index.php/bug/list/1</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/site/login
+Content-Type: application/x-www-form-urlencoded</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+												<executionMode>2</executionMode>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>10.7.90.44:8032</host>
+										<path>/bugfree3.0.3/index.php/site/login</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/site/login
+Content-Type: application/x-www-form-urlencoded
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>37</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>886</maxResponseTime>
+											<averageResponseTime>886</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>10.7.90.44:8032</host>
+										<path>/bugfree3.0.3/index.php/case/list/1</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/bug/list/1
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>42</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>906</maxResponseTime>
+											<averageResponseTime>906</averageResponseTime>
+										</Summary>
+										<childCount>3</childCount>
+										<ChildItems>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>43</id>
+												<name>type</name>
+												<value>case</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>44</id>
+												<name>action</name>
+												<value>opened</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>45</id>
+												<name>product_id</name>
+												<value>1</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>10.7.90.44:8032</host>
+										<path>/bugfree3.0.3/index.php/info/edit</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame>_No__Name:abd6a3a6</targetFrame>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/case/list/1
+</headers>
+										<multipartBoundary/>
+										<FrameStack v='1'>
+											<frameStack>
+											</frameStack>
+										</FrameStack>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset/>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>196</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>1146</maxResponseTime>
+											<averageResponseTime>1146</averageResponseTime>
+										</Summary>
+										<childCount>30</childCount>
+										<ChildItems>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>200</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[deleted_file_id]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>201</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[lock_version]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>202</id>
+												<contentLength>1</contentLength>
+												<content>MQ==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[product_id]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>203</id>
+												<contentLength>1</contentLength>
+												<content>MQ==</content>												<headers>Content-Disposition: form-data; name=&quot;isPageDirty&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>204</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;templateTitle&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>205</id>
+												<contentLength>7</contentLength>
+												<content>Y2FzZTExMQ==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[title]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>206</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;layer1_module&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>207</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[productmodule_id]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>208</id>
+												<contentLength>6</contentLength>
+												<content>QWN0aXZl</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[case_status]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>209</id>
+												<contentLength>6</contentLength>
+												<content>QWN0aXZl</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[assign_to_name]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>210</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[mail_to]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>211</id>
+												<contentLength>1</contentLength>
+												<content>Mg==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[priority]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>212</id>
+												<contentLength>12</contentLength>
+												<content>6YWN572u55u45YWz</content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CaseType]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>213</id>
+												<contentLength>12</contentLength>
+												<content>5omL5Yqo5omn6KGM</content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CaseMethod]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>214</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CasePlan]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>215</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptStatus]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>216</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptedBy]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>217</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptedDate]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>218</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptLocation]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>219</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CaseKeyword]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>220</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;Custom[DisplayOrder]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>221</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[related_bug]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>222</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[related_case]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>223</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;attachment_file[]&quot;; filename=&quot;&quot;
+Content-Type: application/octet-stream</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>224</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[action_note]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>225</id>
+												<contentLength>90</contentLength>
+												<content>W+atpemqpF08YnIgLz4NCjEuPGJyIC8+DQoyLjxiciAvPg0KPGJyIC8+DQpb6aqM6K+BXTxiciAvPg0KPGJyIC8+DQpb5aSH5rOoXTxiciAvPg0KPGJyIC8+</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[case_step]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>197</id>
+												<name>type</name>
+												<value>case</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>198</id>
+												<name>action</name>
+												<value>opened</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>199</id>
+												<name>product_id</name>
+												<value>1</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>226</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>10.7.90.44:8032</host>
+												<path>/bugfree3.0.3/index.php/case/3</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/info/edit?type=case&amp;action=opened&amp;product_id=1</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>10.7.90.44:8032</host>
+										<path>/bugfree3.0.3/index.php/info/edit</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/info/edit?type=case&amp;action=opened&amp;product_id=1
+Content-Type: multipart/form-data; boundary=---------------------------7e32c704a0cea
+</headers>
+										<multipartBoundary>---------------------------7e32c704a0cea</multipartBoundary>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>233</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>754</maxResponseTime>
+											<averageResponseTime>754</averageResponseTime>
+										</Summary>
+										<childCount>3</childCount>
+										<ChildItems>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>234</id>
+												<name>type</name>
+												<value>case</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>235</id>
+												<name>action</name>
+												<value>opened</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>236</id>
+												<name>product_id</name>
+												<value>1</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>10.7.90.44:8032</host>
+										<path>/bugfree3.0.3/index.php/info/edit</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame>_No__Name:88bfa042</targetFrame>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/case/list/1
+</headers>
+										<multipartBoundary/>
+										<FrameStack v='1'>
+											<frameStack>
+											</frameStack>
+										</FrameStack>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset/>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>387</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>2474</maxResponseTime>
+											<averageResponseTime>2474</averageResponseTime>
+										</Summary>
+										<childCount>30</childCount>
+										<ChildItems>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>391</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[deleted_file_id]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>392</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[lock_version]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>393</id>
+												<contentLength>1</contentLength>
+												<content>MQ==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[product_id]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>394</id>
+												<contentLength>1</contentLength>
+												<content>MQ==</content>												<headers>Content-Disposition: form-data; name=&quot;isPageDirty&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>395</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;templateTitle&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>396</id>
+												<contentLength>7</contentLength>
+												<content>Y2FzZTIyMg==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[title]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>397</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;layer1_module&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>398</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[productmodule_id]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>399</id>
+												<contentLength>6</contentLength>
+												<content>QWN0aXZl</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[case_status]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>400</id>
+												<contentLength>6</contentLength>
+												<content>QWN0aXZl</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[assign_to_name]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>401</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[mail_to]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>402</id>
+												<contentLength>1</contentLength>
+												<content>Mw==</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[priority]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>403</id>
+												<contentLength>12</contentLength>
+												<content>5oCn6IO95Y6L5Yqb</content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CaseType]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>404</id>
+												<contentLength>15</contentLength>
+												<content>6Ieq5Yqo5YyW6ISa5pys</content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CaseMethod]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>405</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CasePlan]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>406</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptStatus]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>407</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptedBy]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>408</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptedDate]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>409</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[ScriptLocation]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>410</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;Custom[CaseKeyword]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>411</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;Custom[DisplayOrder]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>412</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[related_bug]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>413</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[related_case]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>414</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;attachment_file[]&quot;; filename=&quot;&quot;
+Content-Type: application/octet-stream</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>415</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[action_note]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>416</id>
+												<contentLength>90</contentLength>
+												<content>W+atpemqpF08YnIgLz4NCjEuPGJyIC8+DQoyLjxiciAvPg0KPGJyIC8+DQpb6aqM6K+BXTxiciAvPg0KPGJyIC8+DQpb5aSH5rOoXTxiciAvPg0KPGJyIC8+</content>												<headers>Content-Disposition: form-data; name=&quot;CaseInfoView[case_step]&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>388</id>
+												<name>type</name>
+												<value>case</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>389</id>
+												<name>action</name>
+												<value>opened</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>390</id>
+												<name>product_id</name>
+												<value>1</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>417</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>10.7.90.44:8032</host>
+												<path>/bugfree3.0.3/index.php/case/4</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/info/edit?type=case&amp;action=opened&amp;product_id=1</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>10.7.90.44:8032</host>
+										<path>/bugfree3.0.3/index.php/info/edit</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://10.7.90.44:8032/bugfree3.0.3/index.php/info/edit?type=case&amp;action=opened&amp;product_id=1
+Content-Type: multipart/form-data; boundary=---------------------------7e312d15300c90
+</headers>
+										<multipartBoundary>---------------------------7e312d15300c90</multipartBoundary>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+								</ChildItems>
+								<timeoutEnabled>false</timeoutEnabled>
+								<Object>null</Object>
+								<targetWindow/>
+								<itemName/>
+								<documentation/>
+								<waitForPageToLoad>false</waitForPageToLoad>
+								<sourceLocation/>
+								<recordResponses>true</recordResponses>
+								<quiescenceTimeMs>500</quiescenceTimeMs>
+								<disabled>false</disabled>
+								<ignoreErrors>false</ignoreErrors>
+								<errorFilter/>
+								<Object>null</Object>
+								<name>Step 1</name>
+								<repetitions>1</repetitions>
+								<repeatType>1</repeatType>
+								<repeatVariable/>
+								<incrementAutomatically>true</incrementAutomatically>
+								<incrementAll>true</incrementAll>
+								<expanded>1</expanded>
+							</Step>
+						</ChildItems>
+						<timeoutEnabled>false</timeoutEnabled>
+						<Object>null</Object>
+						<targetWindow/>
+						<itemName/>
+						<documentation/>
+						<waitForPageToLoad>false</waitForPageToLoad>
+						<sourceLocation/>
+						<recordResponses>true</recordResponses>
+						<quiescenceTimeMs>500</quiescenceTimeMs>
+						<disabled>false</disabled>
+						<ignoreErrors>false</ignoreErrors>
+						<errorFilter/>
+						<Object>null</Object>
+						<title>Test 1</title>
+						<template/>
+						<expanded>1</expanded>
+					</TestItem>
+				</ChildItems>
+				<timeoutEnabled>false</timeoutEnabled>
+				<Object>null</Object>
+				<targetWindow/>
+				<itemName>Test Suite 1</itemName>
+				<documentation/>
+				<waitForPageToLoad>false</waitForPageToLoad>
+				<sourceLocation/>
+				<recordResponses>true</recordResponses>
+				<quiescenceTimeMs>500</quiescenceTimeMs>
+				<disabled>false</disabled>
+				<ignoreErrors>false</ignoreErrors>
+				<errorFilter/>
+				<Object>null</Object>
+				<expanded>1</expanded>
+			</SuiteItem>
+		</ChildItems>
+		<defaultHeaders>User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept: image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*
+Accept-Language: zh-CN
+</defaultHeaders>
+		<itemName>Script-case.bx</itemName>
+		<documentation/>
+	</Script>
+</WebScript>
