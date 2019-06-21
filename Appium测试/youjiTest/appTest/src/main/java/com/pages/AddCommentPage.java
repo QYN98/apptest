@@ -1,4 +1,4 @@
-package com.pages;
+﻿package com.pages;
 
 import com.utils.Actions;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.android.AndroidDriver;
 
 public class AddCommentPage {
-    //加号
+  //“+”
    // @FindBy(xpath = "//*[@id='neet.com.youjidemo:id/tab_icon' and @class='android.widget.ImageView']")
     @FindBy(id = "neet.com.youjidemo:id/tab_icon")
     private WebElement btn_comment;
@@ -45,6 +45,6 @@ public class AddCommentPage {
         action.click(btn_img);
         action.click(selectimg);
         action.click(btn_upload);
-        Thread.sleep(5000);
+        Thread.sleep(3000);
     }
 }

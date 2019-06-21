@@ -1,4 +1,4 @@
-package com.pages;
+﻿package com.pages;
 
 import com.utils.Actions;
 
@@ -12,13 +12,13 @@ import java.util.List;
 import io.appium.java_client.android.AndroidDriver;
 
 public class CollectionPage {
-    //"我"
+    //"我的"
     @FindBy(xpath = "//*[@text='我']")
     private WebElement bar_me;
     //"首页"
     @FindBy(xpath = "//*[@text='首页']")
     private WebElement bar_first;
-    //收藏
+    //"收藏"
     @FindBy(id = "neet.com.youjidemo:id/btn_love")
     private WebElement btn_collection;
     //返回收藏

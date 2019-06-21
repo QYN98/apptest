@@ -1,4 +1,4 @@
-package com.testcases;
+﻿package com.testcases;
 
 import com.base.BasePrepare;
 import com.pages.CheckmessagePage;
@@ -20,7 +20,7 @@ public class CheckmessageTest extends BasePrepare {
 
         driver.findElementByName("消息").click();
         driver.findElementByName("世界这么大你想去看看。").click();
-        //此处为bug，无法打开查看完整的消息内容
+        //无法点击进入页面
         driver.findElementByName("重新打开应用").click();
 
 

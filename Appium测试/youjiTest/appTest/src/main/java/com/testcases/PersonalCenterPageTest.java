@@ -1,4 +1,4 @@
-package com.testcases;
+﻿package com.testcases;
 
 import com.base.BaseTest;
 import com.pages.PersonalCenterPage;
@@ -12,7 +12,7 @@ public class PersonalCenterPageTest extends BaseTest {
     public void editTest() throws InterruptedException {
         PersonalCenterPage pp=new PersonalCenterPage(getDriver());
         pp.enterPersonalCenter();
-        pp.editDocuments("我是一个认真的人");
+        pp.editDocuments("waiting for you anpanman");
         pp.exitPersonalCerter();
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());

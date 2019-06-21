@@ -1,4 +1,4 @@
-package com.testcases;
+﻿package com.testcases;
 
 import com.base.BasePrepare;
 import com.pages.AddnotesPage;
@@ -11,7 +11,7 @@ public class AddnotesTest extends BasePrepare {
     @Test(dataProvider = "")
     public void notes(){
         AddnotesPage add=new AddnotesPage(getDriver());
-        add.notes("一片新天地");
+        add.notes("hello");
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     /*@Test
@@ -19,7 +19,7 @@ public class AddnotesTest extends BasePrepare {
         Thread.sleep(5000);
         driver.findElementByName("收藏").click();
         driver.findElementByName("编辑").click();
-        driver.findElementById("neet.com.youjidemo:id/list").sendKeys("一片新天地");
+        driver.findElementById("neet.com.youjidemo:id/list").sendKeys("hello");
 
 }*/
 }

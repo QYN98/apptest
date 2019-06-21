@@ -1,4 +1,4 @@
-package com.testcases;
+﻿package com.testcases;
 
 import com.base.BaseTest;
 import com.pages.AddCommentPage;
@@ -11,7 +11,7 @@ public class AddCommentTest extends BaseTest {
     @Test
     public void commentTest() throws InterruptedException {
         AddCommentPage ac=new AddCommentPage(getDriver());
-        ac.addComment("检测");
+        ac.addComment("你好");
         System.out.print(getDriver().currentActivity());
         Assert.assertEquals(".MainActivity",getDriver().currentActivity());
     }
