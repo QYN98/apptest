@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="youji" verbose="1" >
+    <listeners>
+        <listener class-name="com.base.WebTestListener" />
+    </listeners>
+    <test name="test1">
+        <classes>
+            <class name="com.testcases.LoginPageTest"/>
+        </classes>
+
+    </test>
+</suite>
